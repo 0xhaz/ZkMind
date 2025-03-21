@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: SEE LICENSE IN LICENSE
-pragma solidity ^0.8.24;
+pragma solidity ^0.8.19;
 
 contract FingerprintRegistry {
     struct ModelRecord {
@@ -8,6 +8,8 @@ contract FingerprintRegistry {
         uint256 timestamp; // Timestamp of the model registration
         address owner; // Owner of the model
     }
+
+    constructor() {}
 
     mapping(uint256 => ModelRecord) public records;
     uint256 public recordCount;

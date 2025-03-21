@@ -1,66 +1,11 @@
-## Foundry
+# ZkMind - Decentralized AI Verification & Reputation Hub
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+## Week 1: AI Model Training & Fingerprinting
 
-Foundry consists of:
-
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
-
-## Documentation
-
-https://book.getfoundry.sh/
-
-## Usage
-
-### Build
-
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+- **Model**: MNIST classifier (98.81% accuracy).
+- **Fingerprint**: `5792e1051219b3c6cc071e6c227f8b64770077ad64e360f9b6491bb472aa3c78`.
+- **Storacha CID**: `bafybeiavkv6bba5ps7xlzlrorbtqbsk564ghlwhjrpnezcoubwcikgzgh4`.
+- **Contract**: `0x388Fc77700AEF34087bAD543Cea69F6b132b9fA5` (Calibration testnet).
+- **Deployment Tx**: `0xdad965a3320c3dc81fcf311ac9ee90e2bace1e51d0c9c0640d4d000024e97e68`.
+- **Registration Tx**: `0x1ea92beea58bfb365da7cc966392ff847bbc23de3d01fa4a09e02b8ac92c485e`.
+- **Details**: Record ID 1 stores CID, fingerprint, timestamp (1742576130), and owner.

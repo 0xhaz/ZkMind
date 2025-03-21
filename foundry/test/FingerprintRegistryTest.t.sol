@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: SEE LICENSE IN LICENSE
-pragma solidity ^0.8.24;
+pragma solidity ^0.8.19;
 
 import {DeployFingerprintRegistry} from "script/DeployFingerprintRegistry.s.sol";
 import {FingerprintRegistry} from "src/core/FingerprintRegistry.sol";
