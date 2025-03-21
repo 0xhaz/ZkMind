@@ -2,3 +2,8 @@
 foundry/node_modules
 foundry/.env
 frontend/node_modules
+
+# Ignores development broadcast logs
+!/foundry/broadcast
+/foundry/broadcast/*/31337/
+/foundry/broadcast/**/dry-run/
